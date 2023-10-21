@@ -56,9 +56,9 @@ const app = {
   generateSlider() {
   
     const sliderContainer = document.querySelector(".slider");
-    const sliderImages = ["../img/canyon.jpg", "../img/city.jpg", 
-    "../img/nature.jpg", "../img/ocean.jpg", "../img/road.jpg", 
-    "../img/ski.jpg"];
+    const sliderImages = ["img/canyon.jpg", "img/city.jpg", 
+    "img/nature.jpg", "img/ocean.jpg", "img/road.jpg", 
+    "img/ski.jpg"];
     let indexImg = 0;
     let img = document.createElement('img');
     img.src = sliderImages[0];
